@@ -32,8 +32,6 @@ func init() {
 
 func main() {
 
-	defer db.Close()
-
 	r := mux.NewRouter()
 
 	r.Methods(http.MethodGet).Path("/").HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
