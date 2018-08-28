@@ -1,7 +1,7 @@
 # GopherReview
 
 ## Why
-The purpose of this API is to power a website where people can rate pictures of Gophers.  Like this one!
+The purpose of this API is to power a website where people can keep a list of all the gophers in the world and track their age and favorite color.
 
 ## Who
 Why, you, of course! We need your help to add features to our API!
@@ -18,6 +18,20 @@ Please follow these instructions:
 ## HOWTO
 
 If you've never written Go before, here are some tips:
+
 1. you'll want to install all the dependencies of this application by running ``` go get -d ./... ```
 1. You can just run the program by running ``` go run main.go ```
 1. Once it's running, use curl to interact with it like this: ``` curl http://localhost:8080/ -D - ```
+
+## Resources
+
+To get started with Go, we suggest the following resources
+
+How to Write Go https://golang.org/doc/code.html
+Writing Effective Go https://golang.org/doc/effective_go.html
+A Tour of Go https://tour.golang.org/welcome/1
+especially the section on slices https://tour.golang.org/moretypes/7 and appending to slices https://tour.golang.org/moretypes/15
+The FAQ: https://golang.org/doc/faq
+The Go standard library documentation: https://golang.org/pkg/ especially on JSON https://golang.org/pkg/encoding/json/
+JSON and Go https://blog.golang.org/json-and-go
+
