@@ -15,7 +15,7 @@ Please follow these instructions:
 1. Push your changes back to this repository on your branch and open a pull request!
 1. Magic Happens
 
-## HOWTO
+## Pro Tips
 
 If you've never written Go before, here are some tips:
 
@@ -28,10 +28,19 @@ If you've never written Go before, here are some tips:
 To get started with Go, we suggest the following resources
 
 How to Write Go https://golang.org/doc/code.html
+
 Writing Effective Go https://golang.org/doc/effective_go.html
+
 A Tour of Go https://tour.golang.org/welcome/1
+
 especially the section on slices https://tour.golang.org/moretypes/7 and appending to slices https://tour.golang.org/moretypes/15
+
 The FAQ: https://golang.org/doc/faq
+
 The Go standard library documentation: https://golang.org/pkg/ especially on JSON https://golang.org/pkg/encoding/json/
+
 JSON and Go https://blog.golang.org/json-and-go
 
+## Ask for Help
+
+If you're stuck or unsure about anything, please reach out with questions! 
