@@ -11,7 +11,7 @@ import (
 type Gopher struct {
 	Name          string `json:"name"`
 	Age           int    `json:"age"`
-	FavoriteColor string `json:"favoritecolor"`
+	FavoriteColor string `json:"favoritecolour"`
 }
 
 // GopherData Holds A Slice of Gophers.
